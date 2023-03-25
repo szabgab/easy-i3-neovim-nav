@@ -1,0 +1,18 @@
+[package]
+name = "easy-i3-neovim-nav"
+version = "1.0.0"
+authors = ["Tom Praschan <tom@praschan.de>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Quickly navigate and resize i3wm windows and Neovim splits with the same keybindings"
+homepage = "https://github.com/tom-anders/easy-i3-neovim-nav"
+keywords = ["vim", "neovim", "i3wm"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.1.8", features = ["derive"] }
+i3ipc = "0.10.1"
+neovim-lib = "0.6.1"
+regex = "1.7.1"
