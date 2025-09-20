@@ -5,7 +5,7 @@ authors = ["Tom Praschan <tom@praschan.de>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Quickly navigate and resize i3wm windows and Neovim splits with the same keybindings"
-homepage = "https://github.com/tom-anders/easy-i3-neovim-nav"
+repository = "https://github.com/tom-anders/easy-i3-neovim-nav"
 keywords = ["vim", "neovim", "i3wm"]
 categories = ["command-line-utilities"]
 
